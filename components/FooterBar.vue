@@ -1,13 +1,13 @@
 <template>
   <footer class="footer">
-    © {{ thisYear }}
+    Copyright © {{ thisYear }}
     <i
       v-if="author"
       class="icon-user"
     />
     {{ author }}
     <br>
-    Powered by
+    Generated with
     <a
       href="https://vuepress.vuejs.org/"
       rel="noopener"
@@ -15,7 +15,7 @@
     >VuePress</a>
     | Theme
     <a
-      href="https://github.com/viko16/vuepress-theme-simple"
+      href="https://github.com/ventusoon/vuepress-theme-simple"
       rel="noopener"
       target="_blank"
     >Simple</a>
